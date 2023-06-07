@@ -18,6 +18,25 @@
     width: 23%;
 }
 
+.videoSobre .container{
+    display: flex;
+}
+
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.videoSobre-video{
+    flex-grow: 0.5;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
 .rodapePrincipal-navMap-list {
     display: flex;
     flex-direction: column;
