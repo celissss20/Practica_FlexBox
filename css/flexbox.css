@@ -21,6 +21,13 @@
     margin-right: 5%;
 }
 
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap;
+}
+
 .rodapePrincipal-contatoForm{
     width: 25%;
 }
