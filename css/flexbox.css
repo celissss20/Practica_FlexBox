@@ -29,8 +29,8 @@
     margin-left: 20%;
 }
 
-.videoSobre-video{
-    flex-grow: 0.5;
+.videoSobre-video{ 
+    flex-shrink: 2;
 }
 
 .videoSobre-sobre-list{
@@ -82,6 +82,18 @@
     }
 
     .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+    .videoSobre .container{
+        flex-direction: column;
+    }
+
+    .videoSobre-sobre{
+        margin: 0;
+    }
+
+    .videoSobre-video{
         width: 100%;
     }
 
